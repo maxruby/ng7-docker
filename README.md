@@ -8,8 +8,7 @@ $ docker build -t ng6docker .
 
 **Create alias:**
 ```bash
-$ alias ng6docker='docker run -it --rm -v $PWD:/project:rw -p 4200
-:4200 -p 49154:49154 -p 53703:53703 --name ng6app ng6docker'
+$ alias ng6docker='docker run -it --rm -v $PWD:/project:rw -p 4200:4200 -p 49154:49154 -p 53703:53703 --name ng6app ng6docker'
 ```
 
 **Create app:**
