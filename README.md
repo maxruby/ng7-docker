@@ -27,7 +27,7 @@ $ ng7docker ng serve --host 0.0.0.0 --port 4200
 $ ng7docker ng build
 ```
 
-**Other Ionic options:**
+**Other ng options:**
 ```bash
 $ ng7docker ng
 ```
